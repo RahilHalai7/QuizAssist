@@ -1,5 +1,5 @@
 # QuizAssist
-This is an Extension that on selecting a Question in a Quiz, answers it for you.
+QuizAssist is your AI-powered exam companion that instantly generates accurate answers to any selected quiz question. Simply highlight the question text, and the extension leverages Google's Gemini AI to provide clear, formatted responses - including detected multiple-choice options when available. Perfect for students, learners, and professionals looking to verify answers or understand complex questions.
 
 ***Features***:
    1. Instant Answers: Get AI-generated answers to selected quiz questions.
