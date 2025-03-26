@@ -1,0 +1,91 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Dark Mode Theme */
+body {
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+  font-family: 'Inter', sans-serif;
+  padding: 16px;
+  min-width: 400px; /* Minimum width */
+  min-height: 300px; /* Minimum height */
+  max-width: 500px; /* Maximum width */
+  max-height: 500px; /* Maximum height */
+}
+
+/* Container */
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  height: 100%; /* Ensure container takes full height */
+}
+
+/* Header */
+header h1 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 8px;
+
+}
+
+header p {
+  font-size: 14px;
+  color: #b0b0b0;
+  line-height: 1.5;
+
+}
+
+/* Summary Box */
+.summary-box {
+  background-color: #2d2d2d;
+  border-radius: 8px;
+  padding: 16px;
+  border: 1px solid #404040;
+  max-height: 400px; /* Maximum height */
+  overflow-y: auto;
+  flex-grow: 1; /* Allow summary box to grow and fill space */
+}
+
+.summary-box p {
+  font-size: 14px;
+  color: #e0e0e0;
+  line-height: 1.5;
+}
+
+.summary-box .placeholder {
+  color: #808080;
+  font-style: italic;
+}
+
+/* Scrollbar Styling */
+.summary-box::-webkit-scrollbar {
+  width: 8px;
+}
+
+.summary-box::-webkit-scrollbar-track {
+  background: #2d2d2d;
+  border-radius: 4px;
+}
+
+.summary-box::-webkit-scrollbar-thumb {
+  background: #404040;
+  border-radius: 4px;
+}
+
+.summary-box::-webkit-scrollbar-thumb:hover {
+  background: #505050;
+}
+
+.loading {
+  display: none;
+  font-size: 14px;
+  color: #808080;
+  text-align: center;
+  margin-top: 16px;
+}
